@@ -13,9 +13,9 @@ Si nosotros no hablamos, otras entidades (políticos, grandes intereses, etc.) s
 hablando por nosotros.
 
 ### ¿Cómo funciona este servicio?
-Llenas el formulario en la página principal con tu información personal y el mensaje que
-deseas enviar, seleccionas a cuáles oficiales deseas enviárselo, oprimes el botón de
-"Enviar" y sometes tu pago por ATH Móvil al 787-xxx-xxxx. Si proveíste tu dirección de
+Llena el formulario en la página principal con tu información personal y el mensaje que
+deseas enviar, selecciona a cuáles oficiales deseas enviárselo, oprime el botón de
+"Enviar" y somete tu pago por ATH Móvil al 787-xxx-xxxx. Si proveíste tu dirección de
 correo electrónico, recibirás una confirmación automática del sistema y también una foto
 de tu carta cuando esté lista para enviar.
 
@@ -27,7 +27,7 @@ comuniques con tus oficiales electos de todas las maneras que puedas.
 
 ### ¿Cuánto tardará la carta en llegar?
 Nosotros enviaremos la carta dentro de tres días después de recibir el pago. El correo
-toma de dos a tres días más en entregarla. Tu carta debería llegar en menos de una semana.
+toma de dos a tres días más en entregarla. Tu carta debe llegar en menos de una semana.
 
 ### ¿Sobre cuáles temas puedo o debo escribir?
 Puedes escribir sobre cualquier tema político, económico, social, etc. que te preocupe.
@@ -39,8 +39,13 @@ de enviarlo.
 Entre sello, sobre, papel e impresión, el costo por carta es aproximadamente
 {{ site.letter_cost }}. Sabemos que el costo puede ser un disuasivo para algunas
 personas, pero no podemos pagar todas las cartas de nuestro propio bolsillo.
-El correo da un pequeño descuento por enviar un alto volumen de cartas, pero no
-siempre podemos contar con que tendremos ese volumen para que nos aplique el descuento.
+
+Si {{ site.letter_cost }} te parece muy caro, considera que es:
+* Menos de lo que cuesta una bolsa de papitas
+* Menos que el IVU de un combo de Whopper
+* Menos de la mitad de lo que cuesta un limber en la gasolinera
+* Menos de *la mitad de la mitad* de lo que cuesta un refresco en Pizza Hut
+* Menos de lo que gastas en gasolina [durante 15 minutos en un tapón](https://boston.cbslocal.com/2011/01/31/curious-about-how-much-gas-is-used-while-idling-car/)
 
 ### ¿Por qué usan ATH Móvil en vez de PayPal?
 PayPal impone un [cargo por transacción](https://www.paypal.com/us/webapps/mpp/merchant-fees).
@@ -55,15 +60,11 @@ Necesitamos esa información para identificar quiénes son los legisladores que 
 corresponden a tu distrito. También la ponemos como la dirección del remitente
 en el sobre.
 
-### ¿Qué pasa si mi dirección postal no es la misma que la física?
+### ¿Qué pasa si mi dirección postal no es la misma que la física y un legislador me quiere contestar la carta?
 Es poco probable que los legisladores te contesten por correo. Si provees tu
 dirección de correo electrónico, tal vez opten por contestarte electrónicamente.
 
 ### ¿Qué hacen después con mi información personal?
-**{{ site.title }}** no guarda información que te puede identificar personalmente.
-Mantenemos estadísticas agregadas de cuáles pueblos están enviando cuántas cartas sobre
-cuáles temas a cuáles legisladores. **{{ site.title }}** sí usa un servicio llamado
-[Formspree](https://formspree.io) para procesar las cartas que recibimos y, al momento
-de escribir esto, Formspree mantiene constancia de las 100 cartas más recientes.
-Eso significa que, mientras más personas usen este servicio, más rápido se eliminará
-tu información personal del sistema. ¡Riega la voz!
+**{{ site.title }}** mantiene estadísticas agregadas sobre cuáles pueblos
+están enviando cuántas cartas sobre cuáles temas a cuáles legisladores. No
+guardamos información que te puede identificar personalmente.
