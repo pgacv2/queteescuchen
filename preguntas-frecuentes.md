@@ -15,7 +15,7 @@ hablando por nosotros.
 ### ¿Cómo funciona este servicio?
 Llena el formulario en la página principal con tu información personal y el mensaje que
 deseas enviar, selecciona a cuáles oficiales deseas enviárselo, oprime el botón de
-"Enviar" y somete tu pago por ATH Móvil al 787-xxx-xxxx. Si proveíste tu dirección de
+"Enviar" y somete tu pago por ATH Móvil al {{ site.ath_movil }}. Si proveíste tu dirección de
 correo electrónico, recibirás una confirmación automática del sistema y también una foto
 de tu carta cuando esté lista para enviar.
 

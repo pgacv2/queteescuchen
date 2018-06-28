@@ -100,9 +100,10 @@ como constituyente, quieres que ellos hagan.
     <input type="text" name="zip" required="required" maxlength="10000" placeholder="Tu código zip"><br />
     <textarea name="message" required="required" rows="15" cols="80" placeholder='Tu mensaje. Enviaremos hasta dos páginas de texto (aproximadamente 1,000 palabras) por carta, así que puedes escribir todo lo que quieras.
 
-Puedes omitir la introducción ("Estimado(a) representante...") y la despedida ("Atentamente, yo"). Nosotros nos encargaremos de eso.'></textarea><br />
+Puedes omitir la introducción ("Estimado(a) representante...") y la despedida ("Atentamente, yo"). Nosotros se lo añadiremos automáticamente a la carta.'></textarea><br />
     Deseo enviarle esta carta a:<br />
     <input type="checkbox" name="send_dist_rep">Mi representante de distrito ({{ site.letter_cost }})<br />
-    <input type="checkbox" name="send_dist_sen">Mi senador(a) de distrito ({{ site.letter_cost }})<br />
+    <input type="checkbox" name="send_dist_sen">Mi senador(a) de distrito ({{ site.letter_cost }})
+    <p style="margin-top:1em">Envía tu pago por ATH Móvil al {{ site.ath_movil }}.</p>
     <button type="submit">Enviar</button>
 </form>
